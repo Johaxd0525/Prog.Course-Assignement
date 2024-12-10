@@ -45,11 +45,11 @@ public class Tray : MonoBehaviour
 
         if (burgerGood)
         {
-            BurgerText.text = "Burger is good!";
+            BurgerText.text = "Burger cooked correctly. Serve, then do it again!";
         }
         else
         {
-            BurgerText.text = "Burger is bad!";
+            BurgerText.text = "Burger cooked incorrectly. Start over!";
         }
 
 
